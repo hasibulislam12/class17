@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	padding:0;
+	background:#ccc;
+	font-family:Arial,sens-serif;
+}
+.mega-menu{
+	
+	background:red;
+	
+	
+	
+}
+.mega-menu ul{
+	
+	list-style:none;
+	overflow:hidden;
+}
+
+.mega-menu ul li{
+	
+	float:left;
+	
+}
+
+.mega-menu ul li a{
+	
+	color:#fff;
+	text-decoration:none;
+	padding:18px 18px;
+	display:block;
+	letter-spacing:5px;
+	font-size:17px;
+	text-transform:uppercase;
+}
+.mega-menu ul li a:hover{
+	
+	background:#fff;
+	color:#000;
+	transition:.3s;
+	transform:scale(1.1);
+	/* transform:rotateX(160deg); */
+}
+.box{
+	
+	width:0;
+	height:0;
+	border-bottom:230px solid mediumvioletred;
+	border-left:150px solid   transparent;
+	border-right:150px solid transparent;
+	margin:200px auto;	
+}
+@media all and (max-width: 800px){}
+
+
+
+
+
